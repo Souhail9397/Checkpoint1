@@ -1,0 +1,1 @@
+![image_alt](https://github.com/Souhail9397/Checkpoint1/blob/main/cfdisk1.png?raw=true)
