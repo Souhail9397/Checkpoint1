@@ -27,4 +27,7 @@ Montage
 ![5 mount devsdb1](https://github.com/user-attachments/assets/a2b8bb19-4afb-448f-a9c1-9cf06d67b285)
 
 ### 2 : Configuration du fichier /etc/fstab  
+
+![Sans titre](https://github.com/user-attachments/assets/6512b8ab-acc2-4a84-9f34-7169caa7a35b)
+
 ![7 configuration du fichier etcfstab](https://github.com/user-attachments/assets/b1d11584-0d87-452c-86bc-5a434c503a2e)
