@@ -15,14 +15,16 @@ Pour créer une partition : séléctionner **"Nouvelle"** -> renseigner la taill
 ![3 Formatage des nouvelles partitions et attribution des noms](https://github.com/user-attachments/assets/f545910b-c988-455b-b708-cb42bf2bf5aa)
 
 ### 4 : Désactivation du swap sur sda5 et activation sur sdb2  
-![4 swapon swapoff](https://github.com/user-attachments/assets/62924773-d370-4ac6-b64e-9200191eeb3d)
+![4 swapon swapoff](https://github.com/user-attachments/assets/62924773-d370-4ac6-b64e-9200191eeb3d)  
 
-### 5 : Montage de sdb1
+## II - Montage 
+
+### 1 : Montage de sdb1
 Création du fichier /mnt/data    
 ![5 mkdir mntdata](https://github.com/user-attachments/assets/5ed47f9f-f19d-4281-ac26-e0e1f22bdcac)  
 
 Montage  
 ![5 mount devsdb1](https://github.com/user-attachments/assets/a2b8bb19-4afb-448f-a9c1-9cf06d67b285)
 
-### 6 : Configuration du fichier /etc/fstab  
+### 2 : Configuration du fichier /etc/fstab  
 ![7 configuration du fichier etcfstab](https://github.com/user-attachments/assets/b1d11584-0d87-452c-86bc-5a434c503a2e)
