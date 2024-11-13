@@ -5,8 +5,8 @@ nano addUsers.sh
 # Vérification de la présence d'arguments
 if [ "$#" -eq 0 ]; then
   echo "Il manque les noms d'utilisateurs en argument - Fin du script"
-    exit 1
-    fi
+  exit 1
+fi
 
 # Vérification de l'existence dans le système du/des nom(s) indiqué(s) en arguments  
 for user in "$@"; do  
