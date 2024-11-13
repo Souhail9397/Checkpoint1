@@ -4,7 +4,7 @@
 cat /etc/passwd  
 
 **2. Commande bash permettant de changer les droits du fichier myfile en rwxr--r-- :**  
-sudo chmod 744
+sudo chmod 744 ./myfile
 
 **3. Comment faire pour que les fichiers pdf d'un dépôt local git ne soient pas pris en compte lors d'un git push ?** :  
 Pour que des fichiers PDF d'un dépôt local git ne soient pas pris en compte lors d'un git push il faut créer (ou modifier dans le cas où il existe déjà) un fichier ".gitignore" à la racine du dépôt, y ajouter la ligne "\*.pdf" pour ignorer tous les fichiers PDF, enregistrer et fermer. En une seule ligne de commande, celà donnerait "echo '\*.pdf' >> .gitignore"
@@ -18,7 +18,7 @@ git merge test_valide
 
 **5. Ligne de commande bash pour afficher le texte** : 
 
-echo -e "Malgré le prix élevé de 100$, il a dit "Bonjour!" au vendeur :\n- "Bonjour est-ce que ce clavier fonctionne bien ?"\n- "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"\n- "Même des tildes ~?"\n- "Evidemment !"
+echo -e 'Malgré le prix élevé de 100$, il a dit "Bonjour!" au vendeur :\n- "Bonjour est-ce que ce clavier fonctionne bien ?"\n- "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"\n- "Même des tildes ~?"\n- "Evidemment !'
 
 **6. Commande permettant de mettre en avant le processus gedit :**  
 fg %1  
